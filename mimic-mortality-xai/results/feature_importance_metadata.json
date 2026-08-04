@@ -1,0 +1,15 @@
+{
+  "method": "XGBoost sklearn feature_importances_ (tree-based)",
+  "top_10": [
+    "gcsverbal",
+    "lactate_min",
+    "sysbp_min",
+    "gcsmotor",
+    "resprate_mean",
+    "admission_age_raw",
+    "gcseyes",
+    "spo2_min",
+    "creatinine_min",
+    "platelet_min"
+  ]
+}

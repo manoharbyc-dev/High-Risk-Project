@@ -1,0 +1,43 @@
+{
+  "class_imbalance": {
+    "train_positive_rate": 11.584696295440096,
+    "val_positive_rate": 11.682306541547668,
+    "test_positive_rate": 11.73336975822975,
+    "neg_pos_ratio": 7.6320778248939884,
+    "imbalance_handling_lr": "class_weight=balanced",
+    "imbalance_handling_xgb": "scale_pos_weight=7.63"
+  },
+  "logistic_regression": {
+    "auroc": 0.8192394761314377,
+    "auprc": 0.4825565370266246,
+    "brier": 0.16641125783107844,
+    "threshold": 0.4655682160606756,
+    "sensitivity": 0.7334109429569267,
+    "specificity": 0.7392448158464872,
+    "ppv": 0.27213822894168466,
+    "npv": 0.9542548941270476,
+    "confusion_matrix": {
+      "tn": 4777,
+      "fp": 1685,
+      "fn": 229,
+      "tp": 630
+    }
+  },
+  "xgboost": {
+    "auroc": 0.8677002726425357,
+    "auprc": 0.5729805835503613,
+    "brier": 0.11861816000276482,
+    "threshold": 0.4213789701461792,
+    "sensitivity": 0.7578579743888242,
+    "specificity": 0.7929433611884865,
+    "ppv": 0.3273001508295626,
+    "npv": 0.9609902475618904,
+    "confusion_matrix": {
+      "tn": 5124,
+      "fp": 1338,
+      "fn": 208,
+      "tp": 651
+    },
+    "best_iteration": 99
+  }
+}

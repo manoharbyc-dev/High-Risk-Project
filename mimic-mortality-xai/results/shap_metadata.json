@@ -1,0 +1,35 @@
+{
+  "method": "TreeSHAP (shap 0.43.0)",
+  "sample_size": 2000,
+  "total_test_rows": 7321,
+  "shap_versions": {
+    "shap": "0.43.0",
+    "numba": "0.62.1",
+    "llvmlite": "0.45.1"
+  },
+  "top_10_shap": [
+    "admission_age_raw",
+    "gcsverbal",
+    "lactate_min",
+    "resprate_mean",
+    "gcseyes",
+    "hemoglobin_max",
+    "sysbp_min",
+    "heartrate_max",
+    "creatinine_min",
+    "spo2_min"
+  ],
+  "top_10_gain": [
+    "gcsverbal",
+    "lactate_min",
+    "sysbp_min",
+    "gcsmotor",
+    "resprate_mean",
+    "admission_age_raw",
+    "gcseyes",
+    "spo2_min",
+    "creatinine_min",
+    "platelet_min"
+  ],
+  "agreements": 8
+}

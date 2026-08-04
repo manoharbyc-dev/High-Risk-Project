@@ -1,0 +1,8 @@
+Metric,Logistic Regression,XGBoost
+AUROC,0.8192,0.8677
+AUPRC,0.4826,0.5730
+Brier Score,0.1664,0.1186
+Sensitivity,0.7334,0.7579
+Specificity,0.7392,0.7929
+PPV,0.2721,0.3273
+NPV,0.9543,0.9610

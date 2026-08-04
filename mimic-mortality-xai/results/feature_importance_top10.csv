@@ -1,0 +1,11 @@
+Rank,Feature,Importance
+1,gcsverbal,0.08471153
+2,lactate_min,0.06119057
+3,sysbp_min,0.045317035
+4,gcsmotor,0.040281568
+5,resprate_mean,0.0382919
+6,admission_age_raw,0.037220035
+7,gcseyes,0.03422696
+8,spo2_min,0.031505346
+9,creatinine_min,0.031216597
+10,platelet_min,0.02816984

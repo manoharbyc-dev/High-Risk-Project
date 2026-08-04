@@ -1,0 +1,11 @@
+SHAP_Rank,Feature,Mean_Abs_SHAP,Gain_Rank,Agreement
+1,admission_age_raw,0.41288328,6,Yes
+2,gcsverbal,0.38007247,1,Yes
+3,lactate_min,0.23744774,2,Yes
+4,resprate_mean,0.20597735,5,Yes
+5,gcseyes,0.19138515,7,Yes
+6,hemoglobin_max,0.17365825,16,No
+7,sysbp_min,0.1602851,3,Yes
+8,heartrate_max,0.14690097,18,No
+9,creatinine_min,0.14281096,9,Yes
+10,spo2_min,0.1419205,8,Yes

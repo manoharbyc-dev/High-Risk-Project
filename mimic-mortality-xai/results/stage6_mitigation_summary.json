@@ -1,0 +1,36 @@
+{
+  "method": "Group-aware decision threshold adjustment",
+  "validation_threshold_selection": true,
+  "test_set_tuning": false,
+  "black_threshold": 0.3800000000000002,
+  "white_threshold": 0.421,
+  "ethical_note": "This is a diagnostic probe to quantify disparity, not an endorsement of race-based thresholds. Race-adjusted clinical algorithms have documented harms and are ethically contested. This analysis treats the symptom (threshold) while root cause is data representation (71% White training cohort).",
+  "baseline_metrics": {
+    "black_fnr": 0.3375,
+    "white_fnr": 0.21160409556313994,
+    "fnr_gap": 0.12589590443686008,
+    "overall_sensitivity": 0.7578579743888242,
+    "overall_ppv": 0.32647943831494486,
+    "overall_brier": 0.11861816000276482
+  },
+  "mitigated_metrics": {
+    "black_fnr": 0.2875,
+    "black_fnr_change": -0.050000000000000044,
+    "white_fnr": 0.21160409556313994,
+    "fnr_gap": 0.07589590443686003,
+    "fnr_gap_reduction": 0.050000000000000044,
+    "fnr_gap_reduction_pct": 39.71535072856662,
+    "black_sensitivity": 0.7125,
+    "black_ppv": 0.285,
+    "black_specificity": 0.7651888341543513,
+    "black_fpr": 0.2348111658456486,
+    "overall_sensitivity": 0.7625145518044237,
+    "overall_ppv": 0.3239366963402572,
+    "overall_brier": 0.1186,
+    "tp": 655,
+    "fn": 204,
+    "fp": 1367,
+    "tn": 5095,
+    "black_additional_deaths_caught": 4
+  }
+}
