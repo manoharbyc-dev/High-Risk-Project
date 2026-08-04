@@ -432,9 +432,8 @@ Age is the dominant SHAP contributor, followed by GCS and lactate. This differs 
 See `results/fairness_disparity_summary.csv` for complete gaps across all attributes.
 
 ### Visualizations Generated
-- `figures/fairness_auroc_by_subgroup.png` — AUROC with 95% CI error bars by subgroup (red = small n, blue = large n)
-- `figures/fairness_sensitivity_fnr_by_subgroup.png` — Sensitivity vs. FNR by subgroup (red = small n, green/orange = large n)
-- `figures/fairness_prevalence_by_subgroup.png` — Mortality base rate by subgroup
+- `figures/fairness_sensitivity_fnr_by_subgroup.png` — Sensitivity and FNR by subgroup at global decision threshold
+- `figures/fnr_gap_stability.png` — FNR gap across 5 random seeds, stability analysis
 
 ---
 
